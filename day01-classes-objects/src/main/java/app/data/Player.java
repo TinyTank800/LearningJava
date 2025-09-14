@@ -1,4 +1,4 @@
-package data;
+package app.data;
 
 public class Player {
     private String name;

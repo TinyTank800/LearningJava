@@ -1,4 +1,6 @@
-import classes.Warrior;
+package app;
+
+import app.classes.Warrior;
 
 import java.util.ArrayList;
 import java.util.List;

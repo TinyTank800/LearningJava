@@ -1,6 +1,6 @@
-package classes;
+package app.classes;
 
-import data.Player;
+import app.data.Player;
 
 import java.util.Random;
 
