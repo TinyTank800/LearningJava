@@ -48,3 +48,16 @@
 > - You can combine `Map`, streams, and lambdas.
 > - You can sort by value instead of key.
 > - You can print a leaderboard showing rank, player, and score.
+
+### Notes
+> - Tried to create a set with duplicates set already using set.of() but that threw an error for duplicate objects.
+> - had to use the same list set with duplicates and use set.CopyOf() method which cuts off the duplicates.
+> - Sets also seem to have no order.
+> - Since creating a list.of() makes an immutable list, I had to create a new arraylist and pass the list.of() to it to be able to add, remove, or update elements.
+> - Map is also immutable so creating a new hashmap with map of lets you add.
+> - Streams allow you to process maps/collections in a functional way.
+> - Using the stream you can then sort that stream with a custom comparator.
+> - I used Map.Entry.comparingByValue() to turn the stream into a map of entries then set the compare by value to be a key value set and compare by the values. 
+> - Reverse makes it go from highest to lowest instead of lowest to highest.
+> - Then used a lambda off the stream to upsert the results into a new map and display that using another lambda foreach.
+> - Linked has map had to be used as normal hashmap does not contain order of insertion.
