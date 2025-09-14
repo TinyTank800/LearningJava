@@ -14,3 +14,4 @@ This repo tracks daily exercises, mini-projects, and weekly capstones. I’m usi
 ---
 
 ## 🗂️ Repo Structure
+- Day 1 : Classes, Objects, Inheritance (/day01-classes-objects/)
