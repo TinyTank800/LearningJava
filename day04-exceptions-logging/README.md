@@ -44,3 +44,7 @@
 > - Finally will execute no matter what after the try/catch. Usually used for cleanup code.
 > - Throws allows you to declare that a method might throw an exception.
 > - You can make your own exception by extending Exception or RuntimeException.
+> - Logging to a logger allows control over level as well as formatting of messages.
+> - Using a logger also allows for better tracking of where and file logging.
+> - Also helps keep imports down to one logging library instead of many System.out.println calls.   
+> - skipped mini project as code already shows same patterns it wanted me to make.
