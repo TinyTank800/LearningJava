@@ -38,4 +38,9 @@
 > - You can clearly separate error handling from normal control flow.
 
 ### Notes
-> - 
+> - Unchecked are not enforced by compiler and happen at runtime.
+> - Checked MUSt be declared or caught as compiler enforces them.
+> - Try catch will catch any exception thrown in the try block.
+> - Finally will execute no matter what after the try/catch. Usually used for cleanup code.
+> - Throws allows you to declare that a method might throw an exception.
+> - You can make your own exception by extending Exception or RuntimeException.
