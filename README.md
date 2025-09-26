@@ -19,7 +19,7 @@ This repo tracks daily exercises, mini-projects, and weekly capstones. I’m usi
 - [X] [Day 2: Collections, Streams, Lambdas](day02-collections-streams-lambdas/README.md)
 - [X] [Day 3: Generics, Enums, Records](day03-generics-enums-records/README.md)
 - [x] [Day 4: Exceptions & Logging](day04-exceptions-logging/README.md)
-- [ ] [Day 5: Threads & Concurrency](day05-concurrency/README.md)
+- [x] [Day 5: Threads & Concurrency](day05-threads-concurrency/README.md)
 - [ ] [Day 6: File I/O, JSON & YAML](day06-io-yaml-json/README.md)
 - [ ] [Day 7: Mini-Project – CLI “Plugin Simulator”](day07-mini-project/README.md)
 

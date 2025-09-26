@@ -47,17 +47,20 @@
 > - You can demonstrate safe multi-threaded program behavior.
 
 ### Notes
-> - A process is a program that runs with memory and resources while a thread is a worker doing somthing to complete the process.
+> - A process is a program that runs with memory and resources while a thread is a worker doing something to complete the process.
 > - A process can contain many threads doing different things.
 > - A race condition is when you are trying to edit a value from multiple threads and depending on completion order will give different or unexpected results.
-> - Using Synchronized will lock a value while one thread is using it so other threads will wait until its done being used/changed.
-> - Syncronization will slow down the program if you multi thread while using one data point.
+> - Using Synchronized will lock a value while one thread is using it so other threads will wait until it's done being used/changed.
+> - Synchronization will slow down the program if you multi thread while using one data point.
 > - ExecutorService is a high level way to manage threads and thread pools.
 > - You can use ExecutorService to create a pool of threads to run tasks or await completions and remove it.
-> - Making an exector will run that task on all threads from the pool.
-> - Make sure to shutdown the executor when done.
-> - A concurrent hashmap will allow mutliple threads to access their own data but require threads to wait if they request the same data.
+> - Making an executor will run that task on all threads from the pool.
+> - Make sure to shut down the executor when done.
+> - A concurrent hashmap will allow multiple threads to access their own data but require threads to wait if they request the same data.
 > - Copy on write will copy the whole list when a change is made so other threads can still access the old version.
 > - Blocking queue will allow threads to wait for data to be added or removed from the queue.
 > - Locks are a lower level way to manage access to data and can be more efficient than synchronized in some cases.
 > - Got most of the project done but some issues related to concurrency and thread safety. Still learning so will clean up tomorrow.
+> - Atomic values are good for concurrency in simple values like ints. Only allows one thread to change the value at a time.
+> - Thread local random is good to keep random values from being generated in the same order.
+> - You dont need public declared in same package usage. You can define each type to help with encapsulation.
